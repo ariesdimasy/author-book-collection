@@ -18,6 +18,10 @@ module.exports = (sequelize, DataTypes) => {
     },
     biography: {
       type:DataTypes.STRING
+    },
+    is_admin : { 
+      type:DataTypes.BOOLEAN,
+      defaultValue:false 
     }
 
   }, {});
